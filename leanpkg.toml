@@ -1,8 +1,8 @@
 [package]
 name = "lean-generalisation"
 version = "0.1"
-lean_version = "leanprover-community/lean:3.42.0"
+lean_version = "leanprover-community/lean:3.44.1"
 path = "src"
 
 [dependencies]
-mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "de5038953210a6ffb013340c7bf82243be226f1c"}
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "3594b635e7e1d8b92058f49a4adad7e5807926fa"}
